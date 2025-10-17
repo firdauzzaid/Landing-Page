@@ -1,3 +1,4 @@
+import Navbar from '../components/Navbar'
 import Head from 'next/head'
 import Hero from '../components/Hero'
 import WhyNeed from '../components/WhyNeed'
@@ -18,6 +19,8 @@ export default function Home() {
         <title>Jasa Web Development | Konsultasi Gratis</title>
         <meta name="description" content="Jasa pembuatan website, web app, dan sistem bisnis custom. Konsultasi gratis & garansi dukungan." />
       </Head>
+
+      <Navbar />
 
       <div className="min-h-screen">
         <Hero />

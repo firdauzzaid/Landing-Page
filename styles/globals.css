@@ -14,6 +14,15 @@ body {
   color: #0b1220;
 }
 
+/* Improve heading rendering on dark backgrounds */
+h1, h2, h3, h4 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Small utility to ensure hero text contrast when used elsewhere */
+.text-hero-muted { color: rgba(255,255,255,0.75); }
+
 /* subtle container for layout */
 .container-max {
   max-width: 1200px;
